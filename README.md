@@ -1,16 +1,35 @@
-# React + Vite
+# Book Library Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app showcasing a personal collection of books, built with Vite and deployed on Vercel. This project uses reusable components to display book information in a clean, modern interface.
 
-Currently, two official plugins are available:
+## Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **`App.jsx`**: The main component that holds the book data and overall page structure (Header, Summary, Book List, Footer).
+-   **`BookCard.jsx`**: A reusable component designed to display individual book information, including title, author, genre, year, and a brief description.
 
-## React Compiler
+## Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **GitHub Repository:** [https://github.com/zalafs87/booklibrary.git]
+-   **Live Website:** [booklibrary-jwf031cwx-zalafs-projects.vercel.app]
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project on your local machine, follow these steps:
+
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/YOUR_USERNAME/book-library-collection.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd book-library-collection
+    ```
+3.  Install the necessary dependencies:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
